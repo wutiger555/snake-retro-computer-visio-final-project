@@ -1,0 +1,11 @@
+Model Information:
+* title:	Joust Console
+* source:	https://sketchfab.com/3d-models/joust-console-9b1648c89bad4a7b8a01a3cdfcf00550
+* author:	novamation (https://sketchfab.com/novamation)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Joust Console" (https://sketchfab.com/3d-models/joust-console-9b1648c89bad4a7b8a01a3cdfcf00550) by novamation (https://sketchfab.com/novamation) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
