@@ -102,7 +102,7 @@ export default class SceneInit {
     this.rtScene.add(light);
     const textLoader = new THREE.TextureLoader();
     const textureBG = textLoader.load(
-      '../../assets/crt_monitor/textures/background.jpg'
+      '../../assets/background.jpg'
     );
     this.rtScene.background = textureBG;
 

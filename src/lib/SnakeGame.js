@@ -96,8 +96,6 @@ export default class SnakeGame {
       y: oldHeadYCoord,
     };
 
-    // NOTE: Keep track of the last part of the snake
-    // incase we need to add an extra part at the end.
     const lastChildIndex = this.snakeGroup.children.length - 1;
     const lastSnakePartCoords = {
       x: this.snakeGroup.children[lastChildIndex].position.x,
@@ -173,8 +171,6 @@ export default class SnakeGame {
   resetSnack() {
     this.clearSnackGroup();
 
-    // Get a list of coordinates where the snake is already over
-    // to ensure that the new snack is not placed over the snake.
     const snakePartsXY = [];
     this.snakeGroup.children.forEach((snakePart) => {
       snakePartsXY.push({
@@ -207,7 +203,7 @@ export default class SnakeGame {
       const snakePartGeometry = new THREE.BoxGeometry(1, 1, 1);
       const textLoader = new THREE.TextureLoader();
       const textureHead = textLoader.load(
-        '../../assets/crt_monitor/textures/snakehead.jpg'
+        '../../assets/snakehead.jpg'
       );
       if (i == 0) {
         const snakePartMaterial = new THREE.MeshStandardMaterial({
